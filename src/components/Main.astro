@@ -1,3 +1,41 @@
-<main class="w-screen h-[78vh] bg-red-200">
-    
+<main class="absolute flex h-[78vh] w-screen flex-col items-center bg-[#0000006d] pt-14 md:pt-24">
+	<p
+		class="relative w-[70%] text-pretty text-center text-[1.6rem] font-bold text-[#ffffff] sm:text-[1.8rem] md:text-[2rem] lg:text-[2.3rem]"
+	>
+		Conoce sobre el mundo de la F1, Cuales son sus pilotos y a que equipos pertenecen, esto según
+		datos de 2024
+	</p>
+	<video id="background-video" autoplay loop muted>
+		<source src="../../public/videof1.mp4" type="video/mp4" />
+	</video>
+
+	<div class="mt-10 md:mt-16">
+		<a
+			href="#"
+			class="flex h-14 w-72 items-center justify-center text-pretty bg-slate-300 hover:bg-slate-400 active:bg-slate-400 text-center text-[1.6rem] font-bold text-[#ffffff]"
+			>Entra Ya!!!</a
+		>
+	</div>
+
+	<h1>.</h1>
 </main>
+
+<style>
+	/* video background */
+	#background-video {
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 5rem;
+		bottom: 0;
+		z-index: -1;
+	}
+	h1 {
+		font-size: 6rem;
+		margin-top: 78vh;
+		width: 0px;
+	}
+</style>
