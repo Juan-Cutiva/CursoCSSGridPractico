@@ -1,0 +1,65 @@
+<div id="error-container" class="absolute">
+	<h1 id="error-title">404</h1>
+	<div>
+		<a href="/" id="error-text"
+			><span id="span">--</span> Oops! Parece que aquí no hay nada, dame clic para volver al inicio<span id="span">-</span><span id="animate-blink"
+				>????</span> <span id="span">--</span></a>
+	</div>
+</div>
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+		margin-top: -3.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		color: #fff;
+	}
+
+    #span{
+        color: rgba(255, 255, 255, 0);
+    }
+
+	#error-container {
+		text-align: center;
+	}
+
+	#error-title {
+		font-size: 190px;
+		font-weight: bold;
+		margin-bottom: 1rem;
+		animation: pulse 2s infinite;
+	}
+
+	#error-text {
+		font-size: 1.125rem;
+        background-color: rgba(179, 179, 179, 0.651);
+        border-radius: 12px;
+	}
+
+	#animate-blink {
+		animation: blink 1s infinite;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 0.5;
+		}
+	}
+
+	@keyframes blink {
+		0%,
+		100% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 0;
+		}
+	}
+</style>
