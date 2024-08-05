@@ -1,8 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro"
+import Layout from "../layouts/Layout2.astro"
 import Driver from "../components/Driver.jsx"
 ---
 
 <Layout title="Drives">
-    <Driver client:load/>
+    <section class="sm:w-[98%] sm:relative sm:left-[2%]">
+        <Driver client:load/>
+    </section>
 </Layout>
