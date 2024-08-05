@@ -1,12 +1,6 @@
-import { Fragment, useEffect } from 'react';
+import { Fragment } from 'react';
 
-
-	// fetch('https://api.openf1.org/v1/drivers?driver_number=1&session_key=9158')
-	// 	.then((response) => response.json())
-	// 	.then((data) => console.log(data));
-
-    import data from "./data.json"
-
+import data from "./data.json"
 
 export default function Example() {
 	return (
