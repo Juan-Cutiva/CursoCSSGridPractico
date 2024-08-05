@@ -10,41 +10,5 @@
         "team_name": "Red Bull Racing",
         "full_name": "Max Verstappen",
         "color": "[#3671c6]"
-    },
-    {
-        "country": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Netherlands.jpg",
-        "nameC": "country Netherlands",
-        "driver_number_img": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/MAXVER01.png",
-        "driver_number": "driver number #1",
-        "first_name": "MAX",
-        "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
-        "last_name": "VERSTAPPEN",
-        "team_name": "Red Bull Racing",
-        "full_name": "Max Verstappen",
-        "color": "[#c63636]"
-    },
-    {
-        "country": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Netherlands.jpg",
-        "nameC": "country Netherlands",
-        "driver_number_img": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/MAXVER01.png",
-        "driver_number": "driver number #1",
-        "first_name": "MAX",
-        "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
-        "last_name": "VERSTAPPEN",
-        "team_name": "Red Bull Racing",
-        "full_name": "Max Verstappen",
-        "color": "[#3671c6]"
-    },
-    {
-        "country": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Netherlands.jpg",
-        "nameC": "country Netherlands",
-        "driver_number_img": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/MAXVER01.png",
-        "driver_number": "driver number #1",
-        "first_name": "MAX",
-        "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
-        "last_name": "VERSTAPPEN",
-        "team_name": "Red Bull Racing",
-        "full_name": "Max Verstappen",
-        "color": "[#3671c6]"
     }
 ]
