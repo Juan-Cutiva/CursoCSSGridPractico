@@ -10,5 +10,53 @@
         "team_name": "Red Bull Racing",
         "full_name": "Max Verstappen",
         "color": "[#3671c6]"
+    },
+    {
+        "country": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
+        "nameC": "country United Kingdom",
+        "driver_number_img": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANNOR01.png",
+        "driver_number": "driver number #4",
+        "first_name": "LANDO",
+        "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
+        "last_name": "NORRIS",
+        "team_name": "McLaren",
+        "full_name": "Lando Norris",
+        "color": "[#ff8000]"
+    },
+    {
+        "country": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Monaco.jpg",
+        "nameC": "country Monaco",
+        "driver_number_img": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CHALEC01.png",
+        "driver_number": "driver number #16",
+        "first_name": "CHARLES",
+        "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png",
+        "last_name": "LECLERC",
+        "team_name": "Ferrari",
+        "full_name": "Charles Leclerc",
+        "color": "[#e80020]"
+    },
+    {
+        "country": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg",
+        "nameC": "country Australia",
+        "driver_number_img": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/OSCPIA01.png",
+        "driver_number": "driver number #81",
+        "first_name": "OSCAR",
+        "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png",
+        "last_name": "PIASTRI",
+        "team_name": "McLaren",
+        "full_name": "Oscar Piastri",
+        "color": "[#ff8000]"
+    },
+    {
+        "country": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg",
+        "nameC": "country Spain",
+        "driver_number_img": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CARSAI01.png",
+        "driver_number": "driver number #55",
+        "first_name": "CARLOS",
+        "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png",
+        "last_name": "SAINZ",
+        "team_name": "Ferrari",
+        "full_name": "Carlos Sainz",
+        "color": "[#e80020]"
     }
 ]
