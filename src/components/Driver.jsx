@@ -7,7 +7,7 @@ export default function Example() {
 		<>
 			<div className="mx-1 mt-20 flex flex-wrap items-center justify-center gap-8 gap-x-11 sm:gap-4 sm:gap-x-12">
 				{data.map((item) => (
-					<div>
+					<div key={item.key}>
 						<section className="relative bottom-20 mt-8 flex h-[26.41rem] w-[26rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-4 duration-150 hover:bottom-[3.9rem] hover:mt-[-1.1rem] hover:h-[27.5rem] hover:border-gray-400 hover:pt-[2rem]">
 							<div className="flex justify-between">
 								<div className="flex">
