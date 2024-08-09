@@ -3,34 +3,35 @@ import { Fragment, useState } from 'react';
 import data from './data.json';
 
 export default function Example() {
-	const [color] = useState('blue');
-	const test = 'bg-blue-500';
-	const [color2] = useState('green');
-	const test2 = 'hover:border-green-400';
-
-	// if ( 0 === key){
-	// 	const [color] = useState("blue");
-	// 	const test = "bg-blue-500";
-	// 	const[color2] = useState("green");
-	// 	const test2 = "hover:border-green-400";
-	// }else if( 1 === key ){
-	// 	const [color] = useState("red");
-	// 	const test = "bg-red-500";
-	// 	const[color2] = useState("red");
-	// 	const test2 = "hover:border-red-400";
-	// }
 
 	return (
 		<>
 			<div className="mx-1 mt-20 flex flex-wrap items-center justify-center gap-8 gap-x-11 sm:gap-4 sm:gap-x-12">
-				{data.map((item) => (
-					<div id="llave" key={item.key}>
+				{data.map(item =>{
+
+					const classNameBG = item.team_name === 'Red Bull Racing' ? "bg-[#3671c6]" : "" || item.team_name === 'McLaren' ? "bg-[#ff8000]" : "" || item.team_name === 'Ferrari' ? "bg-[#e80020]" : "" || item.team_name === 'Mercedes' ? "bg-[#27f4d2]" : ""
+
+
+
+
+
+
+					const classNameB = item.team_name === 'Red Bull Racing' ? "hover:border-[#3671c6]" : "" || item.team_name === 'McLaren' ? "hover:border-[#ff8000]" : "" || item.team_name === 'Ferrari' ? "hover:border-[#e80020]" : "" || item.team_name === 'Mercedes' ? "hover:border-[#27f4d2]" : ""
+
+
+
+
+
+
+
+					return (
+						<div id="llave" key={item.key}>
 						<section
-							className={`relative bottom-20 mt-8 flex h-[26.41rem] w-[26rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-4 duration-150 hover:bottom-[3.9rem] hover:mt-[-1.1rem] hover:h-[27.5rem] hover:border-${color2}-400 hover:pt-[2rem]`}
+							className={`relative bottom-20 mt-8 flex h-[26.41rem] w-[26rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-4 duration-150 hover:bottom-[3.9rem] hover:mt-[-1.1rem] hover:h-[27.5rem] hover:pt-[2rem] ${classNameB}`}
 						>
 							<div className="flex justify-between">
 								<div className="flex">
-									<div className={`h-9 w-1 bg-${color}-500`}></div>
+									<div className={` h-9 w-1 ${classNameBG}`}></div>
 									<div className="relative bottom-1 mb-6 ml-3 h-9">
 										<p>{item.first_name}</p>
 										<p className="font-black">{item.last_name}</p>
@@ -56,7 +57,8 @@ export default function Example() {
 							</div>
 						</section>
 					</div>
-				))}
+					)
+				})}
 			</div>
 		</>
 	);
