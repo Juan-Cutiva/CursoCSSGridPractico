@@ -9,6 +9,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
         "last_name": "VERSTAPPEN",
         "team_name": "Red Bull Racing",
+        "location" : "1",
         "full_name": "Max Verstappen"
     },
     {
@@ -21,6 +22,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
         "last_name": "NORRIS",
         "team_name": "McLaren",
+        "location" : "0",
         "full_name": "Lando Norris"
     },
     {
@@ -33,6 +35,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png",
         "last_name": "LECLERC",
         "team_name": "Ferrari",
+        "location" : "1",
         "full_name": "Charles Leclerc"
     },
     {
@@ -45,6 +48,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png",
         "last_name": "PIASTRI",
         "team_name": "McLaren",
+        "location" : "2",
         "full_name": "Oscar Piastri"
     },
     {
@@ -57,6 +61,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png",
         "last_name": "SAINZ",
         "team_name": "Ferrari",
+        "location" : "1",
         "full_name": "Carlos Sainz"
     },
     {
@@ -69,6 +74,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png",
         "last_name": "HAMILTON",
         "team_name": "Mercedes",
+        "location" : "1",
         "full_name": "Lewis Hamilton"
     },
     {
@@ -81,6 +87,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png",
         "last_name": "PEREZ",
         "team_name": "Red Bull Racing",
+        "location" : "1",
         "full_name": "Sergio Perez"
     },
     {
@@ -93,6 +100,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png",
         "last_name": "RUSSELL",
         "team_name": "Mercedes",
+        "location" : "1",
         "full_name": "George Russell"
     },
     {
@@ -105,6 +113,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
         "last_name": "ALONSO",
         "team_name": "Aston Martin",
+        "location" : "1",
         "full_name": "Fernando Alonso"
     },
     {
@@ -117,6 +126,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png",
         "last_name": "STROLL",
         "team_name": "Aston Martin",
+        "location" : "0",
         "full_name": "Lance Stroll"
     },
     {
@@ -129,6 +139,7 @@
         "headshot_url": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png",
         "last_name": "HULKENBERG",
         "team_name": "Haas",
+        "location" : "3",
         "full_name": "Nico Hulkenberg"
     }
 ]

@@ -13,17 +13,10 @@ export default function Example() {
 
 
 
-
-
-
-
 					const classNameB = item.team_name === 'Red Bull Racing' ? "hover:border-[#3671c6]" : "" || item.team_name === 'McLaren' ? "hover:border-[#ff8000]" : "" || item.team_name === 'Ferrari' ? "hover:border-[#e80020]" : "" || item.team_name === 'Mercedes' ? "hover:border-[#27f4d2]" : "" || item.team_name === 'Aston Martin' ? "hover:border-[#229971]" : "" || item.team_name === 'Haas' ? "hover:border-[#b6babd]" : ""
 
 
-
-
-
-
+					const location = item.location === '0' ? "right-10" : "" || item.location === '1' ? "right-12" : "" || item.location === '2' ? "right-6" : "" || item.location === '3' ? "right-14" : ""
 
 
 
@@ -52,7 +45,7 @@ export default function Example() {
 										alt={item.driver_number}
 									/>
 									<img
-										className="relative right-10 h-80"
+										className={`relative ${location} h-80`}
 										src={item.headshot_url}
 										alt={item.full_name}
 									/>
