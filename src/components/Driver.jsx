@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
 
 import data from './data.json';
 
@@ -9,14 +9,16 @@ export default function Example() {
 			<div className="mx-1 mt-20 flex flex-wrap items-center justify-center gap-8 gap-x-11 sm:gap-4 sm:gap-x-12">
 				{data.map(item =>{
 
-					const classNameBG = item.team_name === 'Red Bull Racing' ? "bg-[#3671c6]" : "" || item.team_name === 'McLaren' ? "bg-[#ff8000]" : "" || item.team_name === 'Ferrari' ? "bg-[#e80020]" : "" || item.team_name === 'Mercedes' ? "bg-[#27f4d2]" : "" || item.team_name === 'Aston Martin' ? "bg-[#229971]" : ""
+					const classNameBG = item.team_name === 'Red Bull Racing' ? "bg-[#3671c6]" : "" || item.team_name === 'McLaren' ? "bg-[#ff8000]" : "" || item.team_name === 'Ferrari' ? "bg-[#e80020]" : "" || item.team_name === 'Mercedes' ? "bg-[#27f4d2]" : "" || item.team_name === 'Aston Martin' ? "bg-[#229971]" : "" || item.team_name === 'Haas' ? "bg-[#b6babd]" : ""
 
 
 
 
 
 
-					const classNameB = item.team_name === 'Red Bull Racing' ? "hover:border-[#3671c6]" : "" || item.team_name === 'McLaren' ? "hover:border-[#ff8000]" : "" || item.team_name === 'Ferrari' ? "hover:border-[#e80020]" : "" || item.team_name === 'Mercedes' ? "hover:border-[#27f4d2]" : "" || item.team_name === 'Aston Martin' ? "hover:border-[#229971]" : ""
+
+					const classNameB = item.team_name === 'Red Bull Racing' ? "hover:border-[#3671c6]" : "" || item.team_name === 'McLaren' ? "hover:border-[#ff8000]" : "" || item.team_name === 'Ferrari' ? "hover:border-[#e80020]" : "" || item.team_name === 'Mercedes' ? "hover:border-[#27f4d2]" : "" || item.team_name === 'Aston Martin' ? "hover:border-[#229971]" : "" || item.team_name === 'Haas' ? "hover:border-[#b6babd]" : ""
+
 
 
 
