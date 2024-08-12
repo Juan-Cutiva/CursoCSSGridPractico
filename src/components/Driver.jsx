@@ -18,7 +18,7 @@ export default function Example() {
 					return (
 						<div id="llave" key={item.key}>
 						<section
-							className={`relative bottom-20 mt-8 flex h-[26.41rem] w-[26rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-4 duration-150 sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:h-[27.5rem] hover:pt-[2rem] ${classNameB}`}
+							className={`relative bottom-20 mt-8 flex h-[24.4rem] sm:h-[26.41rem] w-[22rem] sm:w-[26rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-4 duration-150 sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] sm:hover:h-[27.5rem] hover:h-[25.5rem] hover:pt-[2rem] ${classNameB}`}
 						>
 							<div className="flex justify-between">
 								<div className="flex">
@@ -35,12 +35,12 @@ export default function Example() {
 								<p className='text-gray-100'>{item.team_name}</p>
 								<div className="flex items-end">
 									<img
-										className="relative right-2 top-1 h-20"
+										className="relative right-2 top-1 h-14 sm:h-20 "
 										src={item.driver_number_img}
 										alt={item.driver_number}
 									/>
 									<img
-										className={`relative ${location} h-80`}
+										className={`relative ${location} h-72 sm:h-80`}
 										src={item.headshot_url}
 										alt={item.full_name}
 									/>
