@@ -102,7 +102,8 @@ export default function Example() {
 											<MenuItem>
 												{({ focus }) => (
 													<a
-														href="#"
+														href="https://www.facebook.com/Formula1/?locale=es_LA"
+														target='_blank'
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
@@ -115,7 +116,8 @@ export default function Example() {
 											<MenuItem>
 												{({ focus }) => (
 													<a
-														href="#"
+														href="https://www.instagram.com/f1/"
+														target='_blank'
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
@@ -128,7 +130,8 @@ export default function Example() {
 											<MenuItem>
 												{({ focus }) => (
 													<a
-														href="#"
+														href="https://www.linkedin.com/company/formula-one-management-ltd"
+														target='_blank'
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
@@ -141,7 +144,8 @@ export default function Example() {
 											<MenuItem>
 												{({ focus }) => (
 													<a
-														href="#"
+														href="https://x.com/F1"
+														target='_blank'
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
@@ -154,7 +158,8 @@ export default function Example() {
                                             <MenuItem>
 												{({ focus }) => (
 													<a
-														href="#"
+														href="https://www.youtube.com/@Formula1"
+														target='_blank'
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
