@@ -1,13 +1,27 @@
 ---
-import Layout from "../layouts/Layout2.astro"
-import Driver from "../components/Driver.jsx"
-import Header from "../components/Header.jsx"
+import Layout from '../layouts/Layout2.astro';
+import Driver from '../components/Driver.jsx';
+import Header from '../components/Header.jsx';
 ---
 
 <Layout title="Drivers">
-        <Header client:load/>
-        <h1 class="flex items-center justify-center relative top-3 h-14 text-gray-100 text-[1.8rem]">Pilotos De F1 2024</h1>
-        <div class="mt-6">
-                <Driver client:only/>
-        </div>
+	<Header client:load />
+	<h1 class="relative top-3 flex h-14 items-center justify-center text-[1.8rem] text-gray-100">
+		Pilotos De F1 2024
+	</h1>
+	<div class="mt-6">
+		<Driver client:only />
+	</div>
 </Layout>
+
+<style>
+	@font-face {
+		font-family: 'Open Sans';
+		src: url('/Formula1-Wide_web_0.ttf') format('truetype');
+		font-style: normal;
+		font-weight: normal;
+	}
+        h1{
+                font-family: 'Open Sans', sans-serif;
+        }
+</style>
