@@ -1,8 +1,10 @@
 ---
 import Layout from "../layouts/Layout2.astro"
 import Driver from "../components/Driver.jsx"
+import Header from "../components/Header.jsx"
 ---
 
 <Layout title="Drivers">
+        <Header client:load/>
         <Driver client:only/>
 </Layout>
