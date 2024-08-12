@@ -1,5 +1,14 @@
 import { Fragment } from 'react';
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
+import {
+	Disclosure,
+	DisclosureButton,
+	DisclosurePanel,
+	Menu,
+	MenuButton,
+	MenuItem,
+	MenuItems,
+	Transition
+} from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
@@ -8,7 +17,7 @@ const navigation = [
 	{
 		name: 'Pilotos',
 		href: '/Drivers',
-		current: false,
+		current: false
 	},
 	{
 		name: 'Repository',
@@ -42,7 +51,7 @@ export default function Example() {
 								</DisclosureButton>
 							</div>
 							<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-								<a href='/' className="flex flex-shrink-0 items-center">
+								<a href="/" className="flex flex-shrink-0 items-center">
 									<img
 										className="h-8 w-full"
 										src="https://media.formula1.com/image/upload/f_auto,c_limit,w_195,q_auto/etc/designs/fom-website/images/f1_logo"
@@ -70,6 +79,94 @@ export default function Example() {
 										))}
 									</div>
 								</div>
+							</div>
+							<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+								{/* Profile dropdown */}
+								<Menu as="div" className="relative ml-3">
+									<div>
+										<MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+											<span className="absolute -inset-1.5" />
+											<span className="sr-only">Open user menu</span>
+											<img className="size-9 rounded-full" src="/world.svg" alt="Redes Sociales" />
+										</MenuButton>
+									</div>
+									<Transition
+										enter="transition ease-out duration-100"
+										enterFrom="transform opacity-0 scale-95"
+										enterTo="transform opacity-100 scale-100"
+										leave="transition ease-in duration-75"
+										leaveFrom="transform opacity-100 scale-100"
+										leaveTo="transform opacity-0 scale-95"
+									>
+										<MenuItems className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+											<MenuItem>
+												{({ focus }) => (
+													<a
+														href="#"
+														className={classNames(
+															focus ? 'bg-gray-100' : '',
+															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
+														)}
+													>
+														<p>Facebook</p> <img src="/Facebook.svg" alt="Facebook Logo" />
+													</a>
+												)}
+											</MenuItem>
+											<MenuItem>
+												{({ focus }) => (
+													<a
+														href="#"
+														className={classNames(
+															focus ? 'bg-gray-100' : '',
+															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
+														)}
+													>
+														<p>Instagram</p> <img src="/Instagram.svg" alt="Instagram Logo" />
+													</a>
+												)}
+											</MenuItem>
+											<MenuItem>
+												{({ focus }) => (
+													<a
+														href="#"
+														className={classNames(
+															focus ? 'bg-gray-100' : '',
+															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
+														)}
+													>
+														<p>Linkedin</p> <img src="/Linkedin.svg" alt="Linkedin Logo" />
+													</a>
+												)}
+											</MenuItem>
+											<MenuItem>
+												{({ focus }) => (
+													<a
+														href="#"
+														className={classNames(
+															focus ? 'bg-gray-100' : '',
+															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
+														)}
+													>
+														<p>X</p> <img src="/X.svg" alt="X Logo" />
+													</a>
+												)}
+											</MenuItem>
+                                            <MenuItem>
+												{({ focus }) => (
+													<a
+														href="#"
+														className={classNames(
+															focus ? 'bg-gray-100' : '',
+															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
+														)}
+													>
+														<p>Youtube</p> <img src="/Youtube.svg" alt="Youtube Logo" />
+													</a>
+												)}
+											</MenuItem>
+										</MenuItems>
+									</Transition>
+								</Menu>
 							</div>
 						</div>
 					</div>
