@@ -68,6 +68,7 @@ export default function Example() {
 
 					return (
 						<div id="llave" key={item.key}>
+							<link rel="stylesheet" href="src\components\Escuderia.css" />
 							<section
 								className={`relative bottom-20 mt-8 flex h-[23.4rem] w-[36rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 duration-150 hover:h-[24.5rem] hover:pt-[1rem] sm:h-[25.41rem] sm:w-[40rem] sm:hover:bottom-[4.9rem] sm:hover:mt-[0.782rem] sm:hover:h-[26.5rem] ${classNameB}`}
 							>
@@ -80,21 +81,21 @@ export default function Example() {
 								<div className="flex gap-[10%]">
 									<div className="flex w-[45%] items-center justify-between">
 										<div className="flex">
-											<p>{item.driver1}</p>
-											<p className="pl-2">{item.driver1A}</p>
+											<p class="p">{item.driver1}</p>
+											<p class="p" className="pl-2">{item.driver1A}</p>
 										</div>
 										<img src={item.imgD1} alt={item.driver1} className="h-12" />
 									</div>
 									<div className="flex w-[45%] items-center justify-between">
 										<div className="flex">
-											<p>{item.driver2}</p>
-											<p className="pl-2">{item.driver2A}</p>
+											<p class="p">{item.driver2}</p>
+											<p class="p" className="pl-2">{item.driver2A}</p>
 										</div>
 										<img src={item.imgD2} alt={item.driver2} className="h-12" />
 									</div>
 								</div>
-								<div className='flex justify-center'>
-									<img src={item.Car} alt={item.name} className="w-[30rem]" />
+								<div id='img' className='flex justify-center pt-8 pl-1 rounded-2xl mt-4'>
+									<img src={item.Car} alt={item.name} className="max-w-[30rem]" />
 								</div>
 							</section>
 						</div>
