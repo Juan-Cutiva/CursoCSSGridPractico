@@ -1,0 +1,122 @@
+[
+    {   
+        "key":"0",
+        "name": "Red Bull Racing",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/red-bull-racing.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/red-bull-racing-logo.png",
+        "driver1": "Max",
+        "driver1A": "VERSTAPPEN",
+        "driver2": "Sergio",
+        "driver2A": "PEREZ",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png"
+    },
+    {   
+        "key":"1",
+        "name": "McLaren",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/mclaren.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/mclaren-logo.png",
+        "driver1": "Lando",
+        "driver1A": "NORRIS",
+        "driver2": "Oscar",
+        "driver2A": "PIASTRI",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png"
+    },
+    {   
+        "key":"2",
+        "name": "Ferrari",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/ferrari.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/ferrari-logo.png",
+        "driver1": "Charles",
+        "driver1A": "LECLERC",
+        "driver2": "Carlos",
+        "driver2A": "SAINZ",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png"
+    },
+    {   
+        "key":"3",
+        "name": "Mercedes",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/mercedes.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/mercedes-logo.png",
+        "driver1": "Lewis",
+        "driver1A": "HAMILTON",
+        "driver2": "George",
+        "driver2A": "RUSSELL",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png"
+    },
+    {
+        "key":"4",
+        "name": "Aston Martin",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/aston-martin.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/aston-martin-logo.png",
+        "driver1": "Fernando",
+        "driver1A": "ALONSO",
+        "driver2": "Lance",
+        "driver2A": "STROLL",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png"
+    },
+    {   
+        "key":"5",
+        "name": "RB",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/RB.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/RB-logo.png",
+        "driver1": "Yuki",
+        "driver1A": "TSUNODA",
+        "driver2": "Daniel",
+        "driver2A": "RICCIARDO",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/D/DANRIC01_Daniel_Ricciardo/danric01.png"
+    },
+    {   
+        "key":"6",
+        "name": "Haas",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/haas.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/haas-logo.png",
+        "driver1": "Nico",
+        "driver1A": "HULKENBERG",
+        "driver2": "Kevin",
+        "driver2A": "MAGNUSSEN",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/K/KEVMAG01_Kevin_Magnussen/kevmag01.png"
+    },
+    {   
+        "key":"7",
+        "name": "Alpine",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/alpine.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/alpine-logo.png",
+        "driver1": "Pierre",
+        "driver1A": "GASLY",
+        "driver2": "Esteban",
+        "driver2A": "OCON",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png"
+    },
+    {   
+        "key":"8",
+        "name": "Williams",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/williams.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/williams-logo.png",
+        "driver1": "Alexander",
+        "driver1A": "ALBON",
+        "driver2": "Logan",
+        "driver2A": "SARGEANT",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LOGSAR01_Logan_Sargeant/logsar01.png"
+    },
+    {   
+        "key":"9",
+        "name": "Kick Sauber",
+        "Car": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/kick-sauber.png",
+        "logo": "https://media.formula1.com/content/dam/fom-website/teams/2024/kick-sauber-logo.png",
+        "driver1": "Valtteri",
+        "driver1A": "BOTTAS",
+        "driver2": "Zhou",
+        "driver2A": "GUANYU",
+        "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png",
+        "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GUAZHO01_Guanyu_Zhou/guazho01.png"
+    }
+]
