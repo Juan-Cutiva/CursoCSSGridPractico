@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import data from './escuderias.json';
+import data from '../data/escuderias.json';
 
 export default function Example() {
 	return (
@@ -68,7 +68,7 @@ export default function Example() {
 
 					return (
 						<div id="llave" key={item.key}>
-							<link rel="stylesheet" href="src\components\Escuderia.css" />
+							<link rel="stylesheet" href="src/css/Escuderia.css" />
 							<section
 								className={`relative bottom-20 mt-8 flex h-[23.4rem] w-[36rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 duration-150 hover:h-[24.5rem] hover:pt-[1rem] sm:h-[25.41rem] sm:w-[40rem] sm:hover:bottom-[4.9rem] sm:hover:mt-[0.782rem] sm:hover:h-[26.5rem] ${classNameB}`}
 							>
