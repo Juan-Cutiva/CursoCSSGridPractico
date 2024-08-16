@@ -88,7 +88,7 @@ export default function Example() {
 												{item.driver1A}
 											</p>
 										</div>
-										<img src={item.imgD1} alt={item.driver1} className="h-12" />
+										<img src={item.imgD1} alt={item.driver1} className="h-12 mr-[0.4rem]" />
 									</div>
 									<div className="flex w-[45%] items-center justify-between">
 										<div className="flex">
@@ -99,7 +99,7 @@ export default function Example() {
 												{item.driver2A}
 											</p>
 										</div>
-										<img src={item.imgD2} alt={item.driver2} className="h-12" />
+										<img src={item.imgD2} alt={item.driver2} className="h-12 mr-[0.4rem]" />
 									</div>
 								</div>
 								<div id="img" className="mt-4 flex justify-center rounded-2xl pl-1 pt-8">
