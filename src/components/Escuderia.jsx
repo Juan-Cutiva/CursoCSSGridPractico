@@ -81,14 +81,14 @@ export default function Example() {
 								<hr className="w-auto text-gray-100 mb-2"/>
 
 								<div className="flex gap-[10%]">
-									<div className="flex w-[45%] items-center justify-between">
+									<div className="flex w-[45%] items-center justify-between border-b-[1px] border-r-[1px] rounded-br-xl">
 										<div className="flex">
 											<p className="tracking-[0.0125rem]">{item.driver1}</p>
 											<p className="pl-2 tracking-[0.0125rem] font-bold">{item.driver1A}</p>
 										</div>
 										<img src={item.imgD1} alt={item.driver1} className="mr-[0.4rem] h-12" />
 									</div>
-									<div className="flex w-[45%] items-center justify-between">
+									<div className="flex w-[45%] items-center justify-between border-b-[1px] border-r-[1px] rounded-br-xl">
 										<div className="flex">
 											<p className="tracking-[0.0125rem]">{item.driver2}</p>
 											<p className="pl-2 tracking-[0.0125rem] font-bold">{item.driver2A}</p>
@@ -96,8 +96,8 @@ export default function Example() {
 										<img src={item.imgD2} alt={item.driver2} className="mr-[0.4rem] h-12" />
 									</div>
 								</div>
-								<div id="img" className="mt-4 flex justify-center rounded-2xl pl-1 pt-8">
-									<img src={item.Car} alt={item.name} className="max-w-[30rem]" />
+								<div id="img" className="mt-4 flex justify-center rounded-xl pt-8">
+									<img src={item.Car} alt={item.name} className="max-w-[30rem] ml-5" />
 								</div>
 							</section>
 						</div>
