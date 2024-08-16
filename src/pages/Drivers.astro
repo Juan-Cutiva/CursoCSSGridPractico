@@ -6,27 +6,10 @@ import Header from '../components/Header.jsx';
 
 <Layout title="Drivers">
 	<Header client:load />
-	<h1 class="relative top-3 flex h-14 items-center justify-center text-[1.8rem] text-gray-100">
+	<h1 class="relative top-3 flex h-14 items-center justify-center text-[1.3rem] text-gray-100 sm:text-[1.875rem]">
 		Pilotos De F1 2024
 	</h1>
 	<div class="mt-6">
 		<Driver client:only />
 	</div>
 </Layout>
-
-<style>
-	@font-face {
-		font-family: 'Open Sans';
-		src: url('/Formula1-Wide_web_0.ttf') format('truetype');
-		font-style: normal;
-		font-weight: normal;
-	}
-	h1 {
-		font-family: 'Open Sans', sans-serif;
-	}
-	@media (max-width: 640px) {
-		h1 {
-		        font-size: 14px;
-		}
-	}
-</style>
