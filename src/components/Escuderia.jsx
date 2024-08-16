@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 
 import data from '../data/escuderias.json';
-import '../css/Escuderia.css'
+import '../css/Escuderia.css';
 
 export default function Example() {
 	return (
@@ -70,36 +70,30 @@ export default function Example() {
 					return (
 						<div id="llave" key={item.key}>
 							<section
-								className={`relative bottom-20 mt-8 flex h-[23.4rem] w-[36rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 duration-150 hover:h-[24.5rem] hover:pt-[1rem] sm:h-[25.41rem] sm:w-[40rem] sm:hover:bottom-[4.9rem] sm:hover:mt-[0.782rem] sm:hover:h-[26.5rem] ${classNameB}`}
+								className={`text-gray-100 relative bottom-20 mt-8 flex h-[23.4rem] w-[36rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 duration-150 hover:h-[24.5rem] hover:pt-[1rem] sm:h-[25.41rem] sm:w-[40rem] sm:hover:bottom-[4.9rem] sm:hover:mt-[0.782rem] sm:hover:h-[26.5rem] ${classNameB}`}
 							>
 								<div className="flex items-center">
 									<div className={`mr-3 h-9 w-1 ${classNameBG}`}></div>
-									<p className="w-[90%] tracking-[0.0125rem]">{item.name}</p>
+									<p className="w-[90%] tracking-[0.0125rem] font-bold">{item.name}</p>
 									<img src={item.logo} alt={item.name} className="w-[10%]" />
 								</div>
+								
+								<hr className="w-auto text-gray-100 mb-2"/>
 
 								<div className="flex gap-[10%]">
 									<div className="flex w-[45%] items-center justify-between">
 										<div className="flex">
-											<p class="p" className="tracking-[0.0125rem]">
-												{item.driver1}
-											</p>
-											<p class="p" className="pl-2 tracking-[0.0125rem]">
-												{item.driver1A}
-											</p>
+											<p className="tracking-[0.0125rem]">{item.driver1}</p>
+											<p className="pl-2 tracking-[0.0125rem] font-bold">{item.driver1A}</p>
 										</div>
-										<img src={item.imgD1} alt={item.driver1} className="h-12 mr-[0.4rem]" />
+										<img src={item.imgD1} alt={item.driver1} className="mr-[0.4rem] h-12" />
 									</div>
 									<div className="flex w-[45%] items-center justify-between">
 										<div className="flex">
-											<p class="p" className="tracking-[0.0125rem]">
-												{item.driver2}
-											</p>
-											<p class="p" className="pl-2 tracking-[0.0125rem]">
-												{item.driver2A}
-											</p>
+											<p className="tracking-[0.0125rem]">{item.driver2}</p>
+											<p className="pl-2 tracking-[0.0125rem] font-bold">{item.driver2A}</p>
 										</div>
-										<img src={item.imgD2} alt={item.driver2} className="h-12 mr-[0.4rem]" />
+										<img src={item.imgD2} alt={item.driver2} className="mr-[0.4rem] h-12" />
 									</div>
 								</div>
 								<div id="img" className="mt-4 flex justify-center rounded-2xl pl-1 pt-8">

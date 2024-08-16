@@ -83,7 +83,7 @@ export default function Example() {
 									</div>
 									<img className="h-9 rounded border-[1px]" src={item.country} alt={item.nameC} />
 								</div>
-								<hr className="w-auto text-white" />
+								<hr className="w-auto text-gray-100" />
 								<div>
 									<p className="tracking-[0.0125rem] text-gray-100">{item.team_name}</p>
 									<div className="flex items-end">
