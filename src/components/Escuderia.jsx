@@ -70,7 +70,7 @@ export default function Example() {
 					return (
 						<div id="llave" key={item.key}>
 							<section
-								className={`text-gray-100 relative bottom-20 mt-8 flex h-[23.4rem] w-[36rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 duration-150 hover:h-[24.5rem] hover:pt-[1rem] sm:h-[25.41rem] sm:w-[40rem] sm:hover:bottom-[4.9rem] sm:hover:mt-[0.782rem] sm:hover:h-[26.5rem] ${classNameB}`}
+								className={`text-gray-100 relative bottom-20 mt-8 flex h-[18.5rem] w-[36rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 duration-150 hover:h-[19.3rem] hover:pt-[2rem] sm:h-[20rem] sm:w-[40rem] sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] sm:hover:h-[21.3rem] ${classNameB}`}
 							>
 								<div className="flex items-center">
 									<div className={`mr-3 h-9 w-1 ${classNameBG}`}></div>
