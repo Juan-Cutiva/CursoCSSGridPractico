@@ -74,27 +74,35 @@ export default function Example() {
 							>
 								<div className="flex items-center">
 									<div className={`mr-3 h-9 w-1 ${classNameBG}`}></div>
-									<p className="w-[90%]">{item.name}</p>
+									<p className="w-[90%] tracking-[0.0125rem]">{item.name}</p>
 									<img src={item.logo} alt={item.name} className="w-[10%]" />
 								</div>
 
 								<div className="flex gap-[10%]">
 									<div className="flex w-[45%] items-center justify-between">
 										<div className="flex">
-											<p class="p">{item.driver1}</p>
-											<p class="p" className="pl-2">{item.driver1A}</p>
+											<p class="p" className="tracking-[0.0125rem]">
+												{item.driver1}
+											</p>
+											<p class="p" className="pl-2 tracking-[0.0125rem]">
+												{item.driver1A}
+											</p>
 										</div>
 										<img src={item.imgD1} alt={item.driver1} className="h-12" />
 									</div>
 									<div className="flex w-[45%] items-center justify-between">
 										<div className="flex">
-											<p class="p">{item.driver2}</p>
-											<p class="p" className="pl-2">{item.driver2A}</p>
+											<p class="p" className="tracking-[0.0125rem]">
+												{item.driver2}
+											</p>
+											<p class="p" className="pl-2 tracking-[0.0125rem]">
+												{item.driver2A}
+											</p>
 										</div>
 										<img src={item.imgD2} alt={item.driver2} className="h-12" />
 									</div>
 								</div>
-								<div id='img' className='flex justify-center pt-8 pl-1 rounded-2xl mt-4'>
+								<div id="img" className="mt-4 flex justify-center rounded-2xl pl-1 pt-8">
 									<img src={item.Car} alt={item.name} className="max-w-[30rem]" />
 								</div>
 							</section>

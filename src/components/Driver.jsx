@@ -75,15 +75,17 @@ export default function Example() {
 									<div className="flex">
 										<div className={`h-9 w-1 ${classNameBG}`}></div>
 										<div className="relative bottom-1 mb-6 ml-3 h-9">
-											<p className="text-gray-100">{item.first_name}</p>
-											<p className="font-black text-gray-100">{item.last_name}</p>
+											<p className="tracking-[0.0125rem] text-gray-100">{item.first_name}</p>
+											<p className="font-black tracking-[0.0125rem] text-gray-100">
+												{item.last_name}
+											</p>
 										</div>
 									</div>
 									<img className="h-9 rounded border-[1px]" src={item.country} alt={item.nameC} />
 								</div>
 								<hr className="w-auto text-white" />
 								<div>
-									<p className="text-gray-100">{item.team_name}</p>
+									<p className="tracking-[0.0125rem] text-gray-100">{item.team_name}</p>
 									<div className="flex items-end">
 										<img
 											className="relative right-2 top-1 h-14 sm:h-20"

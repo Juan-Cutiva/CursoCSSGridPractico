@@ -1,17 +1,18 @@
 ---
 import Error from '../icons/Error.astro';
 import Layout from '../layouts/Layout.astro';
-import Header from "../components/Header.jsx"
+import Header from '../components/Header.jsx';
 ---
+
 <Layout title="404">
-	<div class="fixed top-0 bottom-0 left-0 right-0">
-		<Header client:load/>
+	<div class="fixed bottom-0 left-0 right-0 top-0">
+		<Header client:load />
 	</div>
-	
-    <video id="background-video" autoplay loop muted>
+
+	<video id="background-video" autoplay loop muted>
 		<source src="/videof1.mp4" type="video/mp4" />
 	</video>
-    <Error/>
+	<Error />
 </Layout>
 
 <style>

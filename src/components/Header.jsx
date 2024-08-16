@@ -42,7 +42,7 @@ export default function Example() {
 								{/* Mobile menu button*/}
 								<DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-900 hover:bg-red-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">
 									<span className="absolute -inset-0.5" />
-									<span className="sr-only">Open main menu</span>
+									<span className="sr-only tracking-[0.0125rem]">Open main menu</span>
 									{open ? (
 										<XMarkIcon className="block h-6 w-6" aria-hidden="true" />
 									) : (
@@ -68,9 +68,9 @@ export default function Example() {
 												rel="noopener noreferrer"
 												className={classNames(
 													item.current
-														? 'bg-verde text-white'
-														: 'text-[#13151a] hover:bg-red-700 hover:text-gray-50',
-													'rounded-md px-3 py-2 text-sm font-medium'
+														? 'bg-verde tracking-[0.0125rem] text-white'
+														: 'tracking-[0.0125rem] text-[#13151a] hover:bg-red-700 hover:text-gray-50',
+													'rounded-md px-3 py-2 text-sm font-medium tracking-[0.0125rem]'
 												)}
 												aria-current={item.current ? 'page' : undefined}
 											>
@@ -86,7 +86,7 @@ export default function Example() {
 									<div>
 										<MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
 											<span className="absolute -inset-1.5" />
-											<span className="sr-only">Open user menu</span>
+											<span className="sr-only tracking-[0.0125rem]">Open user menu</span>
 											<img className="size-9 rounded-full" src="/world.svg" alt="Redes Sociales" />
 										</MenuButton>
 									</div>
@@ -103,13 +103,14 @@ export default function Example() {
 												{({ focus }) => (
 													<a
 														href="https://www.facebook.com/Formula1/?locale=es_LA"
-														target='_blank'
+														target="_blank"
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
 														)}
 													>
-														<p>Facebook</p> <img src="/Facebook.svg" alt="Facebook Logo" />
+														<p className="tracking-[0.0125rem]">Facebook</p>{' '}
+														<img src="/Facebook.svg" alt="Facebook Logo" />
 													</a>
 												)}
 											</MenuItem>
@@ -117,13 +118,14 @@ export default function Example() {
 												{({ focus }) => (
 													<a
 														href="https://www.instagram.com/f1/"
-														target='_blank'
+														target="_blank"
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
 														)}
 													>
-														<p>Instagram</p> <img src="/Instagram.svg" alt="Instagram Logo" />
+														<p className="tracking-[0.0125rem]">Instagram</p>{' '}
+														<img src="/Instagram.svg" alt="Instagram Logo" />
 													</a>
 												)}
 											</MenuItem>
@@ -131,13 +133,14 @@ export default function Example() {
 												{({ focus }) => (
 													<a
 														href="https://www.linkedin.com/company/formula-one-management-ltd"
-														target='_blank'
+														target="_blank"
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
 														)}
 													>
-														<p>Linkedin</p> <img src="/Linkedin.svg" alt="Linkedin Logo" />
+														<p className="tracking-[0.0125rem]">Linkedin</p>{' '}
+														<img src="/Linkedin.svg" alt="Linkedin Logo" />
 													</a>
 												)}
 											</MenuItem>
@@ -145,27 +148,29 @@ export default function Example() {
 												{({ focus }) => (
 													<a
 														href="https://x.com/F1"
-														target='_blank'
+														target="_blank"
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
 														)}
 													>
-														<p>X</p> <img src="/X.svg" alt="X Logo" />
+														<p className="tracking-[0.0125rem]">X</p>{' '}
+														<img src="/X.svg" alt="X Logo" />
 													</a>
 												)}
 											</MenuItem>
-                                            <MenuItem>
+											<MenuItem>
 												{({ focus }) => (
 													<a
 														href="https://www.youtube.com/@Formula1"
-														target='_blank'
+														target="_blank"
 														className={classNames(
 															focus ? 'bg-gray-100' : '',
 															'flex items-center justify-between px-4 py-2 text-sm text-gray-700'
 														)}
 													>
-														<p>Youtube</p> <img src="/Youtube.svg" alt="Youtube Logo" />
+														<p className="tracking-[0.0125rem]">Youtube</p>{' '}
+														<img src="/Youtube.svg" alt="Youtube Logo" />
 													</a>
 												)}
 											</MenuItem>
