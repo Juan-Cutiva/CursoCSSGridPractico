@@ -54,22 +54,12 @@ export default function Example() {
 																? 'hover:border-[#87d68a]'
 																: '';
 
-																const location =
-																item.name === 'McLaren'
-																						? 'sm:mr-5 mr-2'
-																						: 'sm:ml-5 ml-2'
-									
+					const location = item.name === 'McLaren' ? 'sm:mr-5 mr-2' : 'sm:ml-5 ml-2';
+
 					return (
 						<div id="llave" key={item.key} className="mt-1">
 							<section
-								className={`relative bottom-20 mt-8 flex 
-									min-h-[50%] max-h-[auto] hover:h-[50%] sm:h-[20rem] sm:hover:h-[21.3rem] lg:h-[50%] lg:hover:h-[50%]
-									w-[90vw] sm:w-[40rem] lg:w-[30rem] xl:w-[40rem]
-									flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4  
-									text-gray-100 
-									duration-150  
-									hover:pt-[2rem]  pt-3
-									sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] ${classNameB}`}
+								className={`relative bottom-20 mt-8 flex max-h-[auto] min-h-[50%] w-[90vw] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 text-gray-100 duration-150 hover:h-[50%] hover:pt-[2rem] sm:h-[20rem] sm:w-[40rem] sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] sm:hover:h-[21.3rem] lg:h-[50%] lg:w-[30rem] lg:hover:h-[50%] xl:w-[40rem] ${classNameB}`}
 							>
 								<div className="flex items-center">
 									<div className={`mr-3 h-9 w-1 ${classNameBG}`}></div>
@@ -83,7 +73,9 @@ export default function Example() {
 									<div className="flex w-[45%] items-center justify-between rounded-br-xl border-b-[1px] border-r-[1px]">
 										<div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row">
 											<p className="tracking-[0.0125rem]">{item.driver1}</p>
-											<p className="font-bold tracking-[0.0125rem] sm:pl-2 lg:pl-0 xl:pl-2">{item.driver1A}</p>
+											<p className="font-bold tracking-[0.0125rem] sm:pl-2 lg:pl-0 xl:pl-2">
+												{item.driver1A}
+											</p>
 										</div>
 										<img
 											src={item.imgD1}
@@ -94,7 +86,9 @@ export default function Example() {
 									<div className="flex w-[45%] items-center justify-between rounded-br-xl border-b-[1px] border-r-[1px]">
 										<div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row">
 											<p className="tracking-[0.0125rem]">{item.driver2}</p>
-											<p className="font-bold tracking-[0.0125rem] sm:pl-2 lg:pl-0 xl:pl-2">{item.driver2A}</p>
+											<p className="font-bold tracking-[0.0125rem] sm:pl-2 lg:pl-0 xl:pl-2">
+												{item.driver2A}
+											</p>
 										</div>
 										<img
 											src={item.imgD2}
@@ -107,7 +101,7 @@ export default function Example() {
 									<img
 										src={item.Car}
 										alt={item.name}
-										className={`min-w-[16rem] max-w-[30rem] sm:ml-5 ml-2 ${location}`}
+										className={`ml-2 min-w-[16rem] max-w-[30rem] sm:ml-5 ${location}`}
 									/>
 								</div>
 							</section>
