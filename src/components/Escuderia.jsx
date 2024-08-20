@@ -54,10 +54,22 @@ export default function Example() {
 																? 'hover:border-[#87d68a]'
 																: '';
 
+																const location =
+																item.name === 'McLaren'
+																						? 'sm:mr-5 mr-2'
+																						: 'sm:ml-5 ml-2'
+									
 					return (
 						<div id="llave" key={item.key} className="mt-1">
 							<section
-								className={`relative bottom-20 mt-8 flex h-[18.5rem] w-[22rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 text-gray-100 duration-150 hover:h-[19.3rem] hover:pt-[2rem] sm:h-[20rem] sm:w-[40rem] sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] sm:hover:h-[21.3rem] lg:w-[30rem] xl:w-[40rem] ${classNameB}`}
+								className={`relative bottom-20 mt-8 flex 
+									h-[18.5rem]  hover:h-[19.3rem] sm:h-[20rem] sm:hover:h-[21.3rem]
+									w-[90vw] sm:w-[40rem] lg:w-[30rem] xl:w-[40rem]
+									flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4  
+									text-gray-100 
+									duration-150  
+									hover:pt-[2rem]  pt-3
+									sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] ${classNameB}`}
 							>
 								<div className="flex items-center">
 									<div className={`mr-3 h-9 w-1 ${classNameBG}`}></div>
@@ -69,9 +81,9 @@ export default function Example() {
 
 								<div className="flex gap-[10%]">
 									<div className="flex w-[45%] items-center justify-between rounded-br-xl border-b-[1px] border-r-[1px]">
-										<div className="flex flex-col sm:flex-row">
+										<div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row">
 											<p className="tracking-[0.0125rem]">{item.driver1}</p>
-											<p className="font-bold tracking-[0.0125rem] sm:pl-2">{item.driver1A}</p>
+											<p className="font-bold tracking-[0.0125rem] sm:pl-2 lg:pl-0 xl:pl-2">{item.driver1A}</p>
 										</div>
 										<img
 											src={item.imgD1}
@@ -80,9 +92,9 @@ export default function Example() {
 										/>
 									</div>
 									<div className="flex w-[45%] items-center justify-between rounded-br-xl border-b-[1px] border-r-[1px]">
-										<div className="flex flex-col sm:flex-row">
+										<div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row">
 											<p className="tracking-[0.0125rem]">{item.driver2}</p>
-											<p className="font-bold tracking-[0.0125rem] sm:pl-2">{item.driver2A}</p>
+											<p className="font-bold tracking-[0.0125rem] sm:pl-2 lg:pl-0 xl:pl-2">{item.driver2A}</p>
 										</div>
 										<img
 											src={item.imgD2}
@@ -95,7 +107,7 @@ export default function Example() {
 									<img
 										src={item.Car}
 										alt={item.name}
-										className="ml-2 min-w-[21rem] max-w-[30rem] sm:ml-5"
+										className={`min-w-[16rem] max-w-[30rem] sm:ml-5 ml-2 ${location}`}
 									/>
 								</div>
 							</section>
