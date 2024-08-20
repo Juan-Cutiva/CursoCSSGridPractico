@@ -57,7 +57,7 @@ export default function Example() {
 					return (
 						<div id="llave" key={item.key} className="mt-1">
 							<section
-								className={`relative bottom-20 mt-8 flex h-[18.5rem] w-[22rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 text-gray-100 duration-150 hover:h-[19.3rem] hover:pt-[2rem] sm:h-[20rem] sm:w-[40rem] sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] sm:hover:h-[21.3rem] lg:w-[30rem] ${classNameB}`}
+								className={`relative bottom-20 mt-8 flex h-[18.5rem] w-[22rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 text-gray-100 duration-150 hover:h-[19.3rem] hover:pt-[2rem] sm:h-[20rem] sm:w-[40rem] sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] sm:hover:h-[21.3rem] lg:w-[30rem] xl:w-[40rem] ${classNameB}`}
 							>
 								<div className="flex items-center">
 									<div className={`mr-3 h-9 w-1 ${classNameBG}`}></div>
