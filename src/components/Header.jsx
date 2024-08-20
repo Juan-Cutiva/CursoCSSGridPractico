@@ -69,7 +69,7 @@ export default function Example() {
 												className={classNames(
 													item.current
 														? 'bg-verde tracking-[0.0125rem] text-white'
-														: 'tracking-[0.0125rem] text-[#13151a] hover:bg-red-700 hover:text-gray-50',
+														: 'tracking-[0.0125rem] text-[#13151a] hover:bg-red-700 hover:text-gray-50 flex items-center text-center',
 													'rounded-md px-3 py-2 text-sm font-medium tracking-[0.0125rem]'
 												)}
 												aria-current={item.current ? 'page' : undefined}
