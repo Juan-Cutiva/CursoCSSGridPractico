@@ -63,7 +63,7 @@ export default function Example() {
 						<div id="llave" key={item.key} className="mt-1">
 							<section
 								className={`relative bottom-20 mt-8 flex 
-									h-[18.5rem]  hover:h-[19.3rem] sm:h-[20rem] sm:hover:h-[21.3rem]
+									min-h-[50%] max-h-[auto] hover:h-[50%] sm:h-[20rem] sm:hover:h-[21.3rem] lg:h-[50%] lg:hover:h-[50%]
 									w-[90vw] sm:w-[40rem] lg:w-[30rem] xl:w-[40rem]
 									flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4  
 									text-gray-100 
