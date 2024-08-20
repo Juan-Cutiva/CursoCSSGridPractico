@@ -54,21 +54,8 @@ export default function Example() {
 																? 'hover:border-[#87d68a]'
 																: '';
 
-					const location =
-						item.location === '0'
-							? 'right-10'
-							: '' || item.location === '1'
-								? 'right-12'
-								: '' || item.location === '2'
-									? 'right-6'
-									: '' || item.location === '3'
-										? 'right-14'
-										: '' || item.location === '4'
-											? 'right-16'
-											: '';
-
 					return (
-						<div id="llave" key={item.key}>
+						<div id="llave" key={item.key} className='mt-1'>
 							<section
 								className={`text-gray-100 relative bottom-20 mt-8 flex h-[18.5rem] w-[22rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 duration-150 hover:h-[19.3rem] hover:pt-[2rem] sm:h-[20rem] sm:w-[40rem] sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] sm:hover:h-[21.3rem] ${classNameB}`}
 							>
