@@ -1,0 +1,28 @@
+<main class="absolute flex h-[96vh] w-screen flex-col items-center bg-[#0000006d] pt-[25vh]">
+    
+	<video id="background-video" autoplay loop muted>
+		<source src="/videof1.mp4" type="video/mp4" />
+	</video>
+
+	<h1>.</h1>
+</main>
+
+<style>
+	/* video background */
+	#background-video {
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 4rem;
+		bottom: 0;
+		z-index: -1;
+	}
+	h1 {
+		font-size: 6rem;
+		margin-top: 78vh;
+		width: 0px;
+	}
+</style>

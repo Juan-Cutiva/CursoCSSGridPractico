@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout2.astro';
+import Driver from '../components/Driver.jsx';
+import Header from '../components/Header.jsx';
+---
+
+<Layout title="Drivers">
+	<Header client:load />
+	<h1
+		class="relative top-3 flex h-14 items-center justify-center text-[1.3rem] tracking-[0.0125rem] text-gray-100 sm:text-[1.875rem]"
+	>
+		Pilotos De F1 2024
+	</h1>
+	<div class="mt-6">
+		<!-- <Driver client:only /> -->
+	</div>
+</Layout>
