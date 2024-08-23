@@ -17,6 +17,7 @@ const classNameB = Max.team_name === 'Red Bull Racing' ? 'hover:border-[#3671c6]
         flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] ${classNameB}`}
 	>
 		<div id="parent" class="flex items-center text-center tracking-[0.0125rem] text-gray-100 text-xl">
+            <p class="-rotate-90 absolute ml-[-2rem] sm:ml-[-1rem] font-black tracking-[0.0125rem] text-gray-100 text-xl">{Max.team_name}</p>
 			<div id="div1" class="flex items-center justify-center"><img class="h-[13rem]" src={Max.headshot_url} alt={Max.full_name}></div>
 			<div id="div2"><p>{Max.points}</p></div>
 			<div id="div3"><p>{Max.first_name}</p> <p class="font-bold">{Max.last_name}</p></div>
