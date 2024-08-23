@@ -54,27 +54,22 @@ export default function Example() {
 																? 'hover:border-[#87d68a]'
 																: '';
 
-					const location =
-						item.location === '0'
-							? 'right-10'
-							: '' || item.location === '1'
-								? 'right-12'
-								: '' || item.location === '2'
-									? 'right-6'
-									: '' || item.location === '3'
-										? 'right-14'
-										: '' || item.location === '4'
-											? 'right-16'
-											: '';
-
 					const Max = item.full_name === 'Max Verstappen' ? 'hidden' : 'flex';
 					const Lec = item.full_name === 'Charles Leclerc' ? 'hidden' : 'flex';
 					const Lan = item.full_name === 'Lando Norris' ? 'hidden' : 'flex';
 
 					return (
-						<div id="llave" key={item.key} className={`${Max} ${Lec} ${Lan}`}>
+						<div id="llave" key={item.key} className={`${Max} ${Lec} ${Lan} mt-2`}>
 							<section
-								className={`relative bottom-20 mt-8 flex h-[3rem] w-[90vw] rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-4 duration-150 hover:h-[4rem] hover:pt-[2rem] sm:h-[5rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] sm:hover:h-[6rem] ${classNameB}`}
+								className={`relative  flex 
+									h-[4.1rem] hover:h-[5.1rem]
+									w-[90vw] 
+									rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 
+									pt-4 hover:pt-[2rem]
+									duration-150 
+									sm:hover:bottom-[3rem] bottom-[4rem]
+									mt-8 sm:hover:mt-[-0.1rem] 
+									${classNameB}`}
 							>
 								<div id="parent" className="w-full flex justify-center">
 										<div id="div1" className=''><div className={`h-9 w-1 ${classNameBG}`}></div></div>
@@ -85,9 +80,9 @@ export default function Example() {
 												{item.last_name}
 											</p>
 										</div> </div>
-										<div id="div4" className="font-black tracking-[0.0125rem] text-gray-100 text-xl flex justify-center items-center"> {item.team_name}</div>
-										<div id="div5" className="font-black tracking-[0.0125rem] text-gray-100 text-2xl flex justify-center items-center"> {item.points}</div>
-										<div id='div6'><img className="h-12 rounded ml-[5vw] sm:ml-[10vw]" src={item.headshot_url} alt={item.nameC} /></div>
+										<div id="div4" className="font-black tracking-[0.0125rem] text-gray-100 text-xl justify-center items-center hidden sm:flex"> {item.team_name}</div>
+										<div id="div5" className="font-black tracking-[0.0125rem] text-gray-100 text-2xl flex justify-center items-center"> PTS {item.points}</div>
+										<div id='div6'><img className="h-12 rounded ml-[40%] sm:ml-[10vw] border-[1px]" src={item.headshot_url} alt={item.nameC} /></div>
 								</div>
 							</section>
 						</div>
