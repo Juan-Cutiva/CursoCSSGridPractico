@@ -5,23 +5,55 @@ const Max = drivers[0];
 const Lan = drivers[1];
 const Lec = drivers[2];
 
-const classNameBG = Max.team_name === 'Red Bull Racing' ? 'bg-[#3671c6]' : '';
-const classNameB = Max.team_name === 'Red Bull Racing' ? 'hover:border-[#3671c6]' : '';
 ---
 
 <div class="item flex justify-center">
 	<section
 		class={`bottom-20 mt-8 flex 
         sm:h-[26.41rem]   sm:hover:h-[27.5rem]
-        w-[85vw] sm:w-[40vw]
-        flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pt-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] ${classNameB}`}
+        w-[30vw] 
+        flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pt-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#ff8000]`}
+	>
+		<div id="parent" class="flex items-center text-center tracking-[0.0125rem] text-gray-100 text-xl">
+            <p class="-rotate-90 absolute ml-[-2rem] sm:ml-[-1rem] font-black tracking-[0.0125rem] text-gray-100 text-xl">{Lan.team_name}</p>
+			<div id="div1" class="flex items-center justify-center"><img class="h-[13rem] ml-3" src={Lan.headshot_url} alt={Lan.full_name}></div>
+			<div id="div2"><p class="font-bold">{Lan.points}</p></div>
+			<div id="div3"><p>{Lan.first_name}</p> <p class="font-bold">{Lan.last_name}</p></div>
+			<div id="div4" class="flex flex-col items-center justify-center"><p class="font-bold text-2xl text-[#848482]">{Lan.position}</p> <div class={`h-1 w-9 bg-[#ff8000]`}></div></div>
+		</div>
+	</section>
+</div>
+
+<div class="item flex justify-center">
+	<section
+		class={`bottom-20 mt-8 flex 
+        sm:h-[26.41rem]   sm:hover:h-[27.5rem]
+        w-[30vw] 
+        flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pt-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#3671c6]`}
 	>
 		<div id="parent" class="flex items-center text-center tracking-[0.0125rem] text-gray-100 text-xl">
             <p class="-rotate-90 absolute ml-[-2rem] sm:ml-[-1rem] font-black tracking-[0.0125rem] text-gray-100 text-xl">{Max.team_name}</p>
 			<div id="div1" class="flex items-center justify-center"><img class="h-[13rem] ml-3" src={Max.headshot_url} alt={Max.full_name}></div>
-			<div id="div2"><p>{Max.points}</p></div>
+			<div id="div2"><p class="font-bold">{Max.points}</p></div>
 			<div id="div3"><p>{Max.first_name}</p> <p class="font-bold">{Max.last_name}</p></div>
-			<div id="div4" class="flex flex-col items-center justify-center"><p class="font-bold text-2xl text-[#CFB53B]">{Max.position}</p> <div class={`h-1 w-9 ${classNameBG}`}></div></div>
+			<div id="div4" class="flex flex-col items-center justify-center"><p class="font-bold text-2xl text-[#CFB53B]">{Max.position}</p> <div class={`h-1 w-9 bg-[#3671c6]`}></div></div>
+		</div>
+	</section>
+</div>
+
+<div class="item flex justify-center">
+	<section
+		class={`bottom-20 mt-8 flex 
+        sm:h-[26.41rem]   sm:hover:h-[27.5rem]
+        w-[30vw] 
+        flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pt-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#e80020] `}
+	>
+		<div id="parent" class="flex items-center text-center tracking-[0.0125rem] text-gray-100 text-xl">
+            <p class="-rotate-90 absolute ml-[-2rem] sm:ml-[-1rem] font-black tracking-[0.0125rem] text-gray-100 text-xl">{Lec.team_name}</p>
+			<div id="div1" class="flex items-center justify-center"><img class="h-[13rem] ml-3" src={Lec.headshot_url} alt={Lec.full_name}></div>
+			<div id="div2"><p class="font-bold">{Lec.points}</p></div>
+			<div id="div3"><p>{Lec.first_name}</p> <p class="font-bold">{Lec.last_name}</p></div>
+			<div id="div4" class="flex flex-col items-center justify-center"><p class="font-bold text-2xl text-[#bf8970]">{Lec.position}</p> <div class={`h-1 w-9 bg-[#e80020]`}></div></div>
 		</div>
 	</section>
 </div>
