@@ -1,19 +1,23 @@
 ---
 import Layout from '../layouts/Layout2.astro';
-import Driver from '../components/Driver.jsx';
 import Header from '../components/Header.jsx';
+import PodioConstructores from '../components/PodioConstructores.astro';
+import CCampeonato from '../components/Ccampeonato.jsx';
 ---
 
-<Layout title="Drivers">
+<Layout title="Campeonato De Pilotos">
 	<Header client:load />
 	<main>
 		<h1
 			class="relative top-3 flex h-14 items-center justify-center text-[1.3rem] tracking-[0.0125rem] text-gray-100 sm:text-[1.875rem]"
 		>
-			Pilotos De F1 2024
+			Campeonato Constructores 2024
 		</h1>
 		<div class="mt-6">
-			<!-- <Driver client:only /> -->
+			<div class="flex flex-col md:flex-row w-screen items-center justify-center gap-4">
+				<PodioConstructores />
+			</div>
+			<CCampeonato client:only />
 		</div>
 	</main>
 </Layout>
