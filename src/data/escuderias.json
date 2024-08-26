@@ -10,6 +10,7 @@
         "driver2A": "PEREZ",
         "points":"408",
         "position":"1",
+        "url":"https://www.formula1.com/en/teams/red-bull-racing",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png"
     },
@@ -24,6 +25,7 @@
         "driver2A": "PIASTRI",
         "points":"366",
         "position":"2",
+        "url":"https://www.formula1.com/en/teams/mclaren",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png"
     },
@@ -38,6 +40,7 @@
         "driver2A": "SAINZ",
         "points":"345",
         "position":"3",
+        "url":"https://www.formula1.com/en/teams/ferrari",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png"
     },
@@ -52,6 +55,7 @@
         "driver2A": "RUSSELL",
         "points":"266",
         "position":"4",
+        "url":"https://www.formula1.com/en/teams/mercedes",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png"
     },
@@ -66,6 +70,7 @@
         "driver2A": "STROLL",
         "points":"73",
         "position":"5",
+        "url":"https://www.formula1.com/en/teams/aston-martin",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png"
     },
@@ -80,6 +85,7 @@
         "driver2A": "RICCIARDO",
         "points":"34",
         "position":"6",
+        "url":"https://www.formula1.com/en/teams/rb",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/D/DANRIC01_Daniel_Ricciardo/danric01.png"
     },
@@ -94,6 +100,7 @@
         "driver2A": "MAGNUSSEN",
         "points":"27",
         "position":"7",
+        "url":"https://www.formula1.com/en/teams/haas",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/K/KEVMAG01_Kevin_Magnussen/kevmag01.png"
     },
@@ -108,6 +115,7 @@
         "driver2A": "OCON",
         "points":"11",
         "position":"8",
+        "url":"https://www.formula1.com/en/teams/alpine",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png"
     },
@@ -122,6 +130,7 @@
         "driver2A": "SARGEANT",
         "points":"4",
         "position":"9",
+        "url":"https://www.formula1.com/en/teams/williams",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LOGSAR01_Logan_Sargeant/logsar01.png"
     },
@@ -136,6 +145,7 @@
         "driver2A": "GUANYU",
         "points":"0",
         "position":"10",
+        "url":"https://www.formula1.com/en/teams/kick-sauber",
         "imgD1": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png",
         "imgD2": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GUAZHO01_Guanyu_Zhou/guazho01.png"
     }

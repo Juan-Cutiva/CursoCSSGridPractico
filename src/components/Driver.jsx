@@ -67,7 +67,7 @@ export default function Example() {
 											: '';
 
 					return (
-						<div id="llave" key={item.key}>
+						<a id="llave" key={item.key} href={item.url} target='_blank' rel='noopener noreferrer'>
 							<section
 								className={`relative bottom-20 mt-8 flex h-[24.4rem] w-[22rem] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-4 duration-150 hover:h-[25.5rem] hover:pt-[2rem] sm:h-[26.41rem] sm:w-[26rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] sm:hover:h-[27.5rem] ${classNameB}`}
 							>
@@ -100,7 +100,7 @@ export default function Example() {
 									</div>
 								</div>
 							</section>
-						</div>
+						</a>
 					);
 				})}
 			</div>

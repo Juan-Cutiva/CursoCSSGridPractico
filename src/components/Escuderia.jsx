@@ -57,7 +57,7 @@ export default function Example() {
 					const location = item.name === 'McLaren' ? 'sm:mr-5 mr-2' : 'sm:ml-5 ml-2';
 
 					return (
-						<div id="llave" key={item.key} className="mt-1">
+						<a id="llave" key={item.key} className="mt-1" href={item.url} target='_blank' rel='noopener noreferrer'>
 							<section
 								className={`relative bottom-20 mt-8 flex max-h-[auto] min-h-[50%] w-[90vw] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 text-gray-100 duration-150 hover:h-[50%] hover:pt-[2rem] sm:h-[20rem] sm:w-[40rem] sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] sm:hover:h-[21.3rem] lg:h-[50%] lg:w-[30rem] lg:hover:h-[50%] xl:w-[40rem] ${classNameB}`}
 							>
@@ -105,7 +105,7 @@ export default function Example() {
 									/>
 								</div>
 							</section>
-						</div>
+						</a>
 					);
 				})}
 			</div>
