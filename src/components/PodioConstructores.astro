@@ -1,0 +1,147 @@
+---
+import data from '../data/escuderias.json';
+const teams = Object.values(data);
+const Red = teams[0];
+const Mac = teams[1];
+const Fer = teams[2];
+---
+
+<section id="teams">
+	<div class="item flex justify-center" id="Red">
+		<section
+			class={`bottom-20 mt-8 flex 
+			sm:h-[26.41rem]   sm:hover:h-[26.5rem]
+			w-[90vw] md:w-[30vw] 
+			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#3671c6]`}>
+
+			<div
+				id="parent"
+				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100">
+                <img src={Red.Car} alt={Red.name + " Car"} id="div1">
+                    <p id="div2" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Red.driver1} <span class="font-bold pl-1">{Red.driver1A}</span></p>
+                    <p id="div3" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Red.driver2} <span class="font-bold pl-1">{Red.driver2A}</span></p>
+                    <p id="div4" class="font-bold text-3xl mt-4">{"PTS " + Red.points}</p>
+                    <p id="div5" class="font-bold text-xl">{"Team " + Red.name}</p>
+                    <div id="div6" class="flex flex-col items-center justify-center">
+                        <p class="text-2xl font-bold text-[#CFB53B]">{Red.position}</p>
+                        <div class={`h-1 w-9 bg-[#3671c6]`}></div>
+                    </div>
+			</div>
+		</section>
+	</div>
+
+    <div class="item flex justify-center" id="Mac">
+		<section
+			class={`bottom-20 mt-8 flex 
+			sm:h-[26.41rem]   sm:hover:h-[26.5rem]
+			w-[90vw] md:w-[30vw] 
+			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#ff8000]`}>
+
+			<div
+				id="parent"
+				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100">
+                <img src={Mac.Car} alt={Mac.name + " Car"} id="div1">
+                    <p id="div2" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Mac.driver1} <span class="font-bold pl-1">{Mac.driver1A}</span></p>
+                    <p id="div3" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Mac.driver2} <span class="font-bold pl-1">{Mac.driver2A}</span></p>
+                    <p id="div4" class="font-bold text-3xl mt-4">{"PTS " + Mac.points}</p>
+                    <p id="div5" class="font-bold text-xl">{"Team " + Mac.name}</p>
+                    <div id="div6" class="flex flex-col items-center justify-center">
+                        <p class="text-2xl font-bold text-[#848482]">{Mac.position}</p>
+                        <div class={`h-1 w-9 bg-[#ff8000]`}></div>
+                    </div>
+			</div>
+		</section>
+	</div>
+
+    <div class="item flex justify-center" id="Fer">
+		<section
+			class={`bottom-20 mt-8 flex 
+			sm:h-[26.41rem]   sm:hover:h-[26.5rem]
+			w-[90vw] md:w-[30vw] 
+			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#e80020]`}>
+
+			<div
+				id="parent"
+				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100">
+                <img src={Fer.Car} alt={Fer.name + " Car"} id="div1">
+                    <p id="div2" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Fer.driver1} <span class="font-bold pl-1">{Fer.driver1A}</span></p>
+                    <p id="div3" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Fer.driver2} <span class="font-bold pl-1">{Fer.driver2A}</span></p>
+                    <p id="div4" class="font-bold text-3xl mt-4">{"PTS " + Fer.points}</p>
+                    <p id="div5" class="font-bold text-xl">{"Team " + Fer.name}</p>
+                    <div id="div6" class="flex flex-col items-center justify-center">
+                        <p class="text-2xl font-bold text-[#bf8970]">{Fer.position}</p>
+                        <div class={`h-1 w-9 bg-[#e80020]`}></div>
+                    </div>
+			</div>
+		</section>
+	</div>
+    
+</section>
+
+<style>
+	#parent {
+		display: grid;
+		grid-template-columns: 1fr 0.05fr 1fr;
+		grid-template-rows: 3fr repeat(4, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+        height: 100%;
+	}
+
+	#div1 {
+		grid-area: 1 / 1 / 2 / 4;
+	}
+	#div2 {
+		grid-area: 2 / 1 / 3 / 2;
+	}
+	#div3 {
+		grid-area: 2 / 3 / 3 / 4;
+	}
+	#div4 {
+		grid-area: 3 / 1 / 4 / 4;
+	}
+	#div5 {
+		grid-area: 4 / 1 / 5 / 4;
+	}
+	#div6 {
+		grid-area: 5 / 1 / 6 / 4;
+	}
+
+	#teams {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+		grid-column-gap: 20px;
+		grid-row-gap: 0px;
+	}
+
+	#Red {
+		grid-area: 1 / 2 / 2 / 3;
+	}
+	#Mac {
+		grid-area: 1 / 1 / 2 / 2;
+	}
+	#Fer {
+		grid-area: 1 / 3 / 2 / 4;
+	}
+
+	@media (max-width: 768px) {
+		#teams {
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(3, 1fr);
+			grid-column-gap: 0px;
+			grid-row-gap: 0px;
+		}
+
+		#Red {
+			grid-area: 1 / 1 / 2 / 2;
+		}
+		#Mac {
+			grid-area: 2 / 1 / 3 / 2;
+		}
+		#Fer {
+			grid-area: 3 / 1 / 4 / 2;
+		}
+	}
+</style>
