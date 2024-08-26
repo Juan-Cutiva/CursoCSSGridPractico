@@ -12,70 +12,114 @@ const Fer = teams[2];
 			class={`bottom-20 mt-8 flex 
 			sm:h-[26.41rem]   sm:hover:h-[26.5rem]
 			w-[90vw] md:w-[30vw] 
-			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#3671c6]`}>
-
+			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#3671c6]`}
+		>
 			<div
 				id="parent"
-				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100">
-                <img src={Red.Car} alt={Red.name + " Car"} id="div1">
-                    <p id="div2" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Red.driver1} <span class="font-bold pl-1">{Red.driver1A}</span></p>
-                    <p id="div3" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Red.driver2} <span class="font-bold pl-1">{Red.driver2A}</span></p>
-                    <p id="div4" class="font-bold text-3xl mt-4">{"PTS " + Red.points}</p>
-                    <p id="div5" class="font-bold text-xl">{"Team " + Red.name}</p>
-                    <div id="div6" class="flex flex-col items-center justify-center">
-                        <p class="text-2xl font-bold text-[#CFB53B]">{Red.position}</p>
-                        <div class={`h-1 w-9 bg-[#3671c6]`}></div>
-                    </div>
+				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100"
+			>
+			<div id="div1" class="flex items-center justify-center">
+				<img src={Red.Car} alt={Red.name + ' Car'} class="h-full"/>
+			</div>
+				<p
+					id="div2"
+					class="flex h-[100%] flex-col items-center justify-center rounded-br-xl border-b-[1px] border-r-[1px] text-start text-base tracking-[0.0125rem]"
+				>
+					{Red.driver1}
+					<span class="pl-1 font-bold">{Red.driver1A}</span>
+				</p>
+				<p
+					id="div3"
+					class="flex h-[100%] flex-col items-center justify-center rounded-br-xl border-b-[1px] border-r-[1px] text-start text-base tracking-[0.0125rem]"
+				>
+					{Red.driver2}
+					<span class="pl-1 font-bold">{Red.driver2A}</span>
+				</p>
+				<p id="div4" class="mt-4 text-3xl font-bold">{'PTS ' + Red.points}</p>
+				<p id="div5" class="text-xl font-bold">{'Team ' + Red.name}</p>
+				<div id="div6" class="flex flex-col items-center justify-center">
+					<p class="text-2xl font-bold text-[#CFB53B]">{Red.position}</p>
+					<div class={`h-1 w-9 bg-[#3671c6]`}></div>
+				</div>
 			</div>
 		</section>
 	</div>
 
-    <div class="item flex justify-center" id="Mac">
+	<div class="item flex justify-center" id="Mac">
 		<section
 			class={`bottom-20 mt-8 flex 
 			sm:h-[26.41rem]   sm:hover:h-[26.5rem]
 			w-[90vw] md:w-[30vw] 
-			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#ff8000]`}>
-
+			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#ff8000]`}
+		>
 			<div
 				id="parent"
-				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100">
-                <img src={Mac.Car} alt={Mac.name + " Car"} id="div1">
-                    <p id="div2" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Mac.driver1} <span class="font-bold pl-1">{Mac.driver1A}</span></p>
-                    <p id="div3" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Mac.driver2} <span class="font-bold pl-1">{Mac.driver2A}</span></p>
-                    <p id="div4" class="font-bold text-3xl mt-4">{"PTS " + Mac.points}</p>
-                    <p id="div5" class="font-bold text-xl">{"Team " + Mac.name}</p>
-                    <div id="div6" class="flex flex-col items-center justify-center">
-                        <p class="text-2xl font-bold text-[#848482]">{Mac.position}</p>
-                        <div class={`h-1 w-9 bg-[#ff8000]`}></div>
-                    </div>
+				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100"
+			>
+			<div id="div1" class="flex items-center justify-center">
+				<img src={Mac.Car} alt={Mac.name + ' Car'} class="h-full"/>
+			</div>
+				<p
+					id="div2"
+					class="flex h-[100%] flex-col items-center justify-center rounded-br-xl border-b-[1px] border-r-[1px] text-start text-base tracking-[0.0125rem]"
+				>
+					{Mac.driver1}
+					<span class="pl-1 font-bold">{Mac.driver1A}</span>
+				</p>
+				<p
+					id="div3"
+					class="flex h-[100%] flex-col items-center justify-center rounded-br-xl border-b-[1px] border-r-[1px] text-start text-base tracking-[0.0125rem]"
+				>
+					{Mac.driver2}
+					<span class="pl-1 font-bold">{Mac.driver2A}</span>
+				</p>
+				<p id="div4" class="mt-4 text-3xl font-bold">{'PTS ' + Mac.points}</p>
+				<p id="div5" class="text-xl font-bold">{'Team ' + Mac.name}</p>
+				<div id="div6" class="flex flex-col items-center justify-center">
+					<p class="text-2xl font-bold text-[#848482]">{Mac.position}</p>
+					<div class={`h-1 w-9 bg-[#ff8000]`}></div>
+				</div>
 			</div>
 		</section>
 	</div>
 
-    <div class="item flex justify-center" id="Fer">
+	<div class="item flex justify-center" id="Fer">
 		<section
 			class={`bottom-20 mt-8 flex 
 			sm:h-[26.41rem]   sm:hover:h-[26.5rem]
 			w-[90vw] md:w-[30vw] 
-			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#e80020]`}>
-
+			flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 duration-150  hover:pt-[2rem] sm:hover:bottom-[3.9rem] sm:hover:mt-[-1.1rem] hover:border-[#e80020]`}
+		>
 			<div
 				id="parent"
-				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100">
-                <img src={Fer.Car} alt={Fer.name + " Car"} id="div1">
-                    <p id="div2" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Fer.driver1} <span class="font-bold pl-1">{Fer.driver1A}</span></p>
-                    <p id="div3" class="flex items-center justify-center flex-col h-[100%] text-base text-start tracking-[0.0125rem] border-b-[1px] border-r-[1px] rounded-br-xl">{Fer.driver2} <span class="font-bold pl-1">{Fer.driver2A}</span></p>
-                    <p id="div4" class="font-bold text-3xl mt-4">{"PTS " + Fer.points}</p>
-                    <p id="div5" class="font-bold text-xl">{"Team " + Fer.name}</p>
-                    <div id="div6" class="flex flex-col items-center justify-center">
-                        <p class="text-2xl font-bold text-[#bf8970]">{Fer.position}</p>
-                        <div class={`h-1 w-9 bg-[#e80020]`}></div>
-                    </div>
+				class="flex items-center text-center text-xl tracking-[0.0125rem] text-gray-100"
+			>
+				<div id="div1" class="flex items-center justify-center">
+					<img src={Fer.Car} alt={Fer.name + ' Car'} class="h-full"/>
+				</div>
+				<p
+					id="div2"
+					class="flex h-[100%] flex-col items-center justify-center rounded-br-xl border-b-[1px] border-r-[1px] text-start text-base tracking-[0.0125rem]"
+				>
+					{Fer.driver1}
+					<span class="pl-1 font-bold">{Fer.driver1A}</span>
+				</p>
+				<p
+					id="div3"
+					class="flex h-[100%] flex-col items-center justify-center rounded-br-xl border-b-[1px] border-r-[1px] text-start text-base tracking-[0.0125rem]"
+				>
+					{Fer.driver2}
+					<span class="pl-1 font-bold">{Fer.driver2A}</span>
+				</p>
+				<p id="div4" class="mt-4 text-3xl font-bold">{'PTS ' + Fer.points}</p>
+				<p id="div5" class="text-xl font-bold">{'Team ' + Fer.name}</p>
+				<div id="div6" class="flex flex-col items-center justify-center">
+					<p class="text-2xl font-bold text-[#bf8970]">{Fer.position}</p>
+					<div class={`h-1 w-9 bg-[#e80020]`}></div>
+				</div>
 			</div>
 		</section>
 	</div>
-    
 </section>
 
 <style>
@@ -85,7 +129,7 @@ const Fer = teams[2];
 		grid-template-rows: 3fr repeat(4, 1fr);
 		grid-column-gap: 0px;
 		grid-row-gap: 0px;
-        height: 100%;
+		height: 100%;
 	}
 
 	#div1 {
