@@ -67,38 +67,36 @@ export default function Example() {
 									<div id="div1" className="">
 										<div className={`h-9 w-1 ${classNameBG}`}></div>
 									</div>
-									<div id="div2" className="text-2xl font-black tracking-[0.0125rem] text-gray-100">
+									<div id="div2" className="flex items-center justify-star mb-3 text-2xl font-black tracking-[0.0125rem] text-gray-100">
 										{item.position}
 									</div>
-									<div id="div3" className="mb-6 ml-3 h-9 flex">
 										<p
-											id="div2"
-											class="flex h-[100%] items-center justify-center border-b-[1px] text-base tracking-[0.0125rem] mr-8"
+											id="div3"
+											class="flex h-[100%] flex-wrap items-center text-center justify-center border-b-[1px] text-base tracking-[0.0125rem] mr-8"
 										>
 											{item.driver1} <span class="pl-1 font-bold">{item.driver1A}</span>
 										</p>
 										<p
-											id="div3"
-											class="flex h-[100%] items-center justify-center border-b-[1px] text-base tracking-[0.0125rem]"
+											id="div4"
+											class="flex h-[100%] flex-wrap items-center text-center justify-center border-b-[1px] text-base tracking-[0.0125rem]"
 										>
 											{item.driver2} <span class="pl-1 font-bold">{item.driver2A}</span>
 										</p>
-									</div>
 									<div
-										id="div4"
-										className="hidden items-center justify-center text-xl font-black tracking-[0.0125rem] text-gray-100 sm:flex"
+										id="div5"
+										className="hidden items-center justify-center text-xl font-black tracking-[0.0125rem] text-gray-100 sm:flex text-center"
 									>
 										{' '}
 										{item.name}
 									</div>
 									<div
-										id="div5"
+										id="div6"
 										className="flex items-center justify-center text-2xl font-black tracking-[0.0125rem] text-gray-100"
 									>
 										{' '}
-										PTS {item.points}
+										<span className='hidden sm:flex'>PTS-</span> {item.points}
 									</div>
-									<div id="div6">
+									<div id="div7">
 										<img
 											className="ml-[10%] mt-1 w-auto items-center justify-center rounded border-[1px] sm:mt-[-0.2rem] sm:h-12 hidden xl:flex"
 											src={item.Car}
