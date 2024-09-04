@@ -8,21 +8,56 @@ export default function Example() {
 		<>
 			<div className="mx-1 mt-20 flex flex-wrap items-center justify-center gap-8 gap-x-11 sm:gap-4 sm:gap-x-12">
 				{data.map((item) => {
-					const classNameBG = item.name === item.name ? `bg-${item.color}` : '';
+					const classNameBG =
+						item.name === 'Red Bull Racing'
+							? 'bg-[#3671c6]'
+							: '' || item.name === 'McLaren'
+								? 'bg-[#ff8000]'
+								: '' || item.name === 'Ferrari'
+									? 'bg-[#e80020]'
+									: '' || item.name === 'Mercedes'
+										? 'bg-[#27f4d2]'
+										: '' || item.name === 'Aston Martin'
+											? 'bg-[#229971]'
+											: '' || item.name === 'Haas'
+												? 'bg-[#b6babd]'
+												: '' || item.name === 'RB'
+													? 'bg-[#6692ff]'
+													: '' || item.name === 'Alpine'
+														? 'bg-[#0093cc]'
+														: '' || item.name === 'Williams'
+															? 'bg-[#64c4ff]'
+															: '' || item.name === 'Kick Sauber'
+																? 'bg-[#87d68a]'
+																: '';
 
-					const classNameB = item.name === item.name ? `hover:border-${item.color}` : '';
+					const classNameB =
+						item.name === 'Red Bull Racing'
+							? 'hover:border-[#3671c6]'
+							: '' || item.name === 'McLaren'
+								? 'hover:border-[#ff8000]'
+								: '' || item.name === 'Ferrari'
+									? 'hover:border-[#e80020]'
+									: '' || item.name === 'Mercedes'
+										? 'hover:border-[#27f4d2]'
+										: '' || item.name === 'Aston Martin'
+											? 'hover:border-[#229971]'
+											: '' || item.name === 'Haas'
+												? 'hover:border-[#b6babd]'
+												: '' || item.name === 'RB'
+													? 'hover:border-[#6692ff]'
+													: '' || item.name === 'Alpine'
+														? 'hover:border-[#0093cc]'
+														: '' || item.name === 'Williams'
+															? 'hover:border-[#64c4ff]'
+															: '' || item.name === 'Kick Sauber'
+																? 'hover:border-[#87d68a]'
+																: '';
 
 					const location = item.name === 'McLaren' ? 'sm:mr-5 mr-2' : 'sm:ml-5 ml-2';
 
 					return (
-						<a
-							id="llave"
-							key={item.key}
-							className="mt-1"
-							href={item.url}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<a id="llave" key={item.key} className="mt-1" href={item.url} target='_blank' rel='noopener noreferrer'>
 							<section
 								className={`relative bottom-20 mt-8 flex max-h-[auto] min-h-[50%] w-[90vw] flex-col rounded-xl rounded-ee-none rounded-ss-none border-r-2 border-t-2 pr-4 pt-3 text-gray-100 duration-150 hover:h-[50%] hover:pt-[2rem] sm:h-[20rem] sm:w-[40rem] sm:hover:bottom-[3rem] sm:hover:mt-[-3.2rem] sm:hover:h-[21.3rem] lg:h-[50%] lg:w-[30rem] lg:hover:h-[50%] xl:w-[40rem] ${classNameB}`}
 							>
