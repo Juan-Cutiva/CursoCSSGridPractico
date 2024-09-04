@@ -8,51 +8,9 @@ export default function Example() {
 		<>
 			<div className="mx-1 mt-20 flex flex-wrap items-center justify-center gap-8 gap-x-11 sm:gap-4 sm:gap-x-12">
 				{data.map((item) => {
-					const classNameBG =
-						item.name === 'Red Bull Racing'
-							? 'bg-[#3671c6]'
-							: '' || item.name === 'McLaren'
-								? 'bg-[#ff8000]'
-								: '' || item.name === 'Ferrari'
-									? 'bg-[#e80020]'
-									: '' || item.name === 'Mercedes'
-										? 'bg-[#27f4d2]'
-										: '' || item.name === 'Aston Martin'
-											? 'bg-[#229971]'
-											: '' || item.name === 'Haas'
-												? 'bg-[#b6babd]'
-												: '' || item.name === 'RB'
-													? 'bg-[#6692ff]'
-													: '' || item.name === 'Alpine'
-														? 'bg-[#0093cc]'
-														: '' || item.name === 'Williams'
-															? 'bg-[#64c4ff]'
-															: '' || item.name === 'Kick Sauber'
-																? 'bg-[#87d68a]'
-																: '';
+					const classNameBG = item.name === item.name ? `bg-${item.color}` : '';
 
-					const classNameB =
-						item.name === 'Red Bull Racing'
-							? 'hover:border-[#3671c6]'
-							: '' || item.name === 'McLaren'
-								? 'hover:border-[#ff8000]'
-								: '' || item.name === 'Ferrari'
-									? 'hover:border-[#e80020]'
-									: '' || item.name === 'Mercedes'
-										? 'hover:border-[#27f4d2]'
-										: '' || item.name === 'Aston Martin'
-											? 'hover:border-[#229971]'
-											: '' || item.name === 'Haas'
-												? 'hover:border-[#b6babd]'
-												: '' || item.name === 'RB'
-													? 'hover:border-[#6692ff]'
-													: '' || item.name === 'Alpine'
-														? 'hover:border-[#0093cc]'
-														: '' || item.name === 'Williams'
-															? 'hover:border-[#64c4ff]'
-															: '' || item.name === 'Kick Sauber'
-																? 'hover:border-[#87d68a]'
-																: '';
+					const classNameB = item.name === item.name ? `hover:border-${item.color}` : '';
 
 					const Max = item.name === 'Red Bull Racing' ? 'hidden' : 'flex';
 					const Lec = item.name === 'Ferrari' ? 'hidden' : 'flex';
